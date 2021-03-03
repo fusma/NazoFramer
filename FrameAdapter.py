@@ -1,7 +1,7 @@
 import os,glob,copy
 import numpy as np
 from PIL import Image
-class FrameAdapter:
+class NazoFramer:
     """問題画像を任意の枠(透過png)に当てはめるためのクラスです。
     setFrame(framePath)で枠を、setResultDir()で出力先を指定。
     コンストラクタでもできます。
