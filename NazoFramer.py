@@ -116,6 +116,3 @@ class NazoFramer:
         print(f"{resultPath} に画像が保存されました")
 
 help(FrameAdapter.applyTemplate)
-f = FrameAdapter("template/waku.png")
-f.setPosition(margin=300,bottom=100)
-f.applyTemplate("online.png")
